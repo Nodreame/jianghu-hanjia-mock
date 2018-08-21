@@ -1,0 +1,11 @@
+{
+  "name": "jianghu-hanjia",
+  "version": "0.0.2",
+  "description": "Mock of game.",
+  "main": "index.js",
+  "author": "Nodreame",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
