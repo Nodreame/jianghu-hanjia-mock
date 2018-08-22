@@ -90,6 +90,7 @@ body, ul, p{
 .content-right {
     flex: 1;
 }
+
 .talent-surplus {
     display: inline-flex;
     justify-content: space-between;
@@ -109,6 +110,7 @@ body, ul, p{
     color: #e0bb63;
     border: 1px solid #e0bb63;
 }
+
 .talent-list {
     height: 85%;
     overflow-y: auto;
@@ -127,7 +129,10 @@ body, ul, p{
     margin-top: 0;
 }
 .talent-new {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
     color: #11f44b;
 }
 .talent-speciality {
@@ -149,13 +154,13 @@ body, ul, p{
 .talent-right {
     flex: 1;
 }
-
 .talent-left-icon {
     width: 1rem;
     height: 1rem;
 }
 .icon-rubbish {
     background-image: url(static/icon/rubbish.svg);
+    /* background-image: url("data:image/svg+xml,%3Csvg t='1534837164428' class='icon' style='' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='1250' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16'%3E %3Cpath d='M661.333333 213.333333V170.666667c0-23.466667-19.2-42.666667-42.666666-42.666667H405.333333c-23.466667 0-42.666667 19.2-42.666666 42.666667v42.666666H170.666667v42.666667h64v597.333333c0 23.466667 19.2 42.666667 42.666666 42.666667h469.333334c23.466667 0 42.666667-19.2 42.666666-42.666667V256h64v-42.666667h-192zM405.333333 170.666667h213.333334v42.666666H405.333333V170.666667z m341.333334 682.666666H277.333333V256h469.333334v597.333333z' p-id='1251' fill='%23dcdcdc'%3E%3C/path%3E%3Cpath d='M618.666667 341.333333h42.666666v426.666667h-42.666666zM362.666667 341.333333h42.666666v426.666667h-42.666666zM490.666667 341.333333h42.666666v426.666667h-42.666666z' p-id='1252' fill='%23dcdcdc'%3E%3C/path%3E %3C/svg%3E"); */
     background-size: cover;
 }
 .talent-left-name {
@@ -165,27 +170,6 @@ body, ul, p{
     color: #fff;
 }
 
-
-
-/* .talent-upgrade-rubbish {
-    display: inline-block;
-    width: 8%;;
-    height: 8%;
-    text-align: center;    
-    background-image: url(static/icon/rubbish.svg);
-    background-size: cover;
-}
-.talent-upgrade-name {
-    margin-left: 8%;
-    margin-right: 1%;
-}
-.talent-upgrade-value {
-    color: #fff;
-}
-.talent-upgrade-slider {
-    float: right;
-    margin-right: 8%;
-} */
 .talent-detail {
     overflow-y: auto;
 }
@@ -195,6 +179,7 @@ body, ul, p{
     font-size: 0.6rem;
     white-space: pre-line;
 }
+
 /* block-navlish */
 .nav-item-border {
     width: 6.2vw;
@@ -225,10 +210,4 @@ body, ul, p{
     font-size: 0.6rem;
     font-weight: 700;
     text-decoration: none;
-}
-
-.svg-icon {
-    margin: -0.125rem;
-    width: 20px ;
-    height: 20px;
 }
