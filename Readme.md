@@ -1,5 +1,7 @@
 # 汉家江湖H5界面模仿
 
+- [在线演示-移动端横屏模式食用更佳](https://nodreame.github.io/jianghu-hanjia-mock/)
+
 ## 前置
 
   纯原生开发，之后再学习并考虑是否使用框架CreateJS等
