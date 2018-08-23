@@ -108,7 +108,7 @@ body, ul, p{
     height: 3%;
     background-color: #242625;
     color: #e0bb63;
-    border: 1px solid #e0bb63;
+    border: 1px solid #beab83;
 }
 
 .talent-list {
@@ -123,7 +123,7 @@ body, ul, p{
     margin: 2% 0 2% 0;
     padding: 1% 0;
     background-color: rgba(41,41,41,0.9);
-    border: 1px solid #7e7860;
+    border: 2px solid #5e554c;
 }
 .talent-item:first-child {
     margin-top: 0;
