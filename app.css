@@ -239,16 +239,7 @@ input[type=range]::-ms-thumb {
     white-space: pre-line;
 }
 
-/* block-navlish */
-.nav-item-border {
-    width: 6.2vw;
-    height: 6.2vw;
-    line-height: 6.2vw;
-    background-color: #fff6c4;
-    text-align: center;
-    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    margin: 0.75vw auto;
-}
+/* block-navlist */
 .nav-item {
     margin: 0.4vw auto;
     width: 6.5vw;
