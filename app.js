@@ -1,6 +1,34 @@
 (function () {
-  var routePaths = ['#/potential', '#/acupoint', '#/talent', '#/prop', '#/outfit', '#/skill'];
-  var routeFiles = ['person-potential', 'person-acupoint', 'person-talent', 'person-prop', 'person-outfit', 'person-skill'];
+  // console.log(document.getElementById('container'));
+
+  function toggleFullScreen() {
+    var doc = window.document;
+    var docEl = doc.documentElement;
+  
+    var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+    var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+  
+    if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+      requestFullScreen.call(docEl);
+    }
+    else {
+      cancelFullScreen.call(doc);
+    }
+  }
+
+  document.getElementsByClassName('base-figure')[0].addEventListener("click", function () {
+    toggleFullScreen();    
+    console.log('wrapper click');
+  }, false);
+
+  var routePaths = [
+    '#/person/potential', '#/person/acupoint', '#/person/talent', 
+    '#/person/prop', '#/person/outfit', '#/person/skill'
+  ];
+  var routeFiles = [
+    'person-potential', 'person-acupoint', 'person-talent', 
+    'person-prop', 'person-outfit', 'person-skill'
+  ];
   console.log('location:', location)
   var routeCache = {};    // html模板文件相对固定，可以缓存
 
@@ -47,8 +75,9 @@
   }
 
   // init
+  // toggleFullScreen();  
   if (location.hash === '') {
-    location.hash = '#/talent';
+    location.hash = '#/person/talent';
   } else {
     setNavFocus(location.hash);
     setPersonPage(location.hash);

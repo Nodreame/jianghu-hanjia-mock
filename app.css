@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-.container {}
+#container {}
 .wrapper-personproperty {
     position: fixed;
     width: 100vw;
