@@ -8,7 +8,7 @@
 .content-right {
     flex: 1;
 }
-
+/* 剩余点数 */
 .talent-surplus {
     display: inline-flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@
     color: #e0bb63;
     border: 1px solid #beab83;
 }
-
+/* 天赋分配 */
 .talent-list {
     height: 85%;
     overflow-y: auto;
@@ -146,6 +146,7 @@ input[type=range]::-ms-thumb {
     transform: rotate(45deg);   
 }
 
+/* 天赋详情 */
 .talent-detail {
     overflow-y: auto;
 }
