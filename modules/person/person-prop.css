@@ -1,0 +1,10 @@
+/* block-content */
+.content-info {
+    padding: 2.5% 2% 10% 2%;
+}
+.content-left {
+    flex: 1;
+}
+.content-right {
+    flex: 1;
+}
