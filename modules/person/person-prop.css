@@ -7,4 +7,56 @@
 }
 .content-right {
     flex: 1;
+    position: relative;
+}
+
+/* 标题 */
+.prop-header {
+    height: 5.6vh;
+    margin-bottom: 4.6vh;
+}
+
+/* 能力值 */
+.prop-stats {
+    height: 50vh;
+    font-size: 0.7rem;
+}
+
+/* 武学状态 */
+.prop-overview {
+    height: 4vh;
+    margin-bottom: 2vh;
+    font-size: 0.7rem;
+}
+
+/* 武学数值 */
+.prop-dataview {
+    position: relative;
+}
+.prop-opacitybg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 75vh;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 1;
+}
+.prop-data {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 75vh;
+    overflow-y: auto;
+    font-size: 0.7rem;
+    z-index: 11;
+}
+.prop-data-atk {
+    white-space: pre-line;
+}
+.prop-data-def {
+    white-space: pre-line;
+}
+.prop-data-other {
+    white-space: pre-line;
 }

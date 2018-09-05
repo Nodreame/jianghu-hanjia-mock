@@ -7,7 +7,9 @@
 }
 .content-right {
     flex: 1;
+    position: relative;
 }
+
 /* 剩余点数 */
 .talent-surplus {
     display: inline-flex;
