@@ -10,13 +10,15 @@
   
     if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
       requestFullScreen.call(docEl);
+      document.getElementById('icon-zoom').className = 'icon-shrink';
     }
     else {
       cancelFullScreen.call(doc);
+      document.getElementById('icon-zoom').className = 'icon-magnify';
     }
   }
 
-  document.getElementsByClassName('base-figure')[0].addEventListener("click", function () {
+  document.getElementsByClassName('block-zoom')[0].addEventListener("click", function () {
     toggleFullScreen();    
     console.log('wrapper click');
   }, false);
