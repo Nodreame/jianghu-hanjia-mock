@@ -15,11 +15,48 @@
     height: 5.6vh;
     margin-bottom: 4.6vh;
 }
+.prop-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fee0ae;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.prop-info {
+    float: right;
+    margin: 0.4vw auto;
+    width: 3vw;
+    height: 3vw;
+    line-height: 3vw;
+    text-align: center;    
+    /* background-image: url(static/icon/btn_prismatic.svg); */
+    background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'%3E %3Cpolygon points='100,2 198,100 100,198 2,100' style='fill:%23c6cdd3;stroke:%23000000;stroke-width:4;'/%3E %3Cpolygon points='100,16 184,100 100,184 16,100' style='fill:%23565658;stroke:%23000000;stroke-width:4;'/%3E %3C/svg%3E");
+    background-size: cover;
+    color: #fff;
+    font-size: 0.6rem;
+}
 
 /* 能力值 */
 .prop-stats {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     height: 50vh;
+}
+.prop-statsitem {
+    width: 50%;
+    color: #fff;
     font-size: 0.7rem;
+}
+.prop-statsitem-icon {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.prop-statsitem-name,
+.prop-statsitem-basevalue,
+.prop-statsitem-addedvalue {
+    text-shadow: 0.5px 0 0 #000, 0 0.5px 0 #000, -0.5px 0 0 #000, 0 -0.5px 0 #000;
 }
 
 /* 武学状态 */
@@ -27,6 +64,8 @@
     height: 4vh;
     margin-bottom: 2vh;
     font-size: 0.7rem;
+    color: #fee0ae;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 
 /* 武学数值 */
@@ -44,19 +83,101 @@
 }
 .prop-data {
     position: absolute;
-    left: 0;
+    top: 1.5vh;
+    left: 1.5vh;
     right: 0;
-    height: 75vh;
+    height: 73.5vh;
     overflow-y: auto;
-    font-size: 0.7rem;
+    color: #fff;
+    font-size: 0.6rem;
     z-index: 11;
 }
-.prop-data-atk {
+.prop-data-growstats {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.prop-data-growstatsitem {
+    width: 26%;
+}
+.prop-data-best {
+    color: red;
+}
+.prop-data-good {
+    color: #ffff00;
+}
+.prop-data-common {
+    color: #0000fe;
+}
+.prop-data-bad {
+    color: #808080;
+}
+.prop-data-growstatsitem-name {
+    margin-left: 10px;
+}
+.prop-data-whitespace {
+    height: 4vh;
+}
+.prop-data-vigour {
+    color: red;
+    font-weight: 700;
+}
+.prop-data-atk-total {
+    color: red;
+    font-weight: 700;
+}
+.prop-data-atk-item {
     white-space: pre-line;
 }
-.prop-data-def {
+.prop-data-def-total  {
+    color: red;
+    font-weight: 700;
+}
+.prop-data-def-item {
     white-space: pre-line;
 }
 .prop-data-other {
     white-space: pre-line;
+}
+
+/* icon */
+.icon-stats-1 {
+    background-image: url(../../static/icon/stats-1.png);
+    background-size: cover;
+}
+.icon-stats-2 {
+    background-image: url(../../static/icon/stats-2.png);
+    background-size: cover;
+}
+.icon-stats-3 {
+    background-image: url(../../static/icon/stats-3.png);
+    background-size: cover;
+}
+.icon-stats-4 {
+    background-image: url(../../static/icon/stats-4.png);
+    background-size: cover;
+}
+.icon-stats-5 {
+    background-image: url(../../static/icon/stats-5.png);
+    background-size: cover;
+}
+.icon-stats-6 {
+    background-image: url(../../static/icon/stats-6.png);
+    background-size: cover;
+}
+.icon-stats-7 {
+    background-image: url(../../static/icon/stats-7.png);
+    background-size: cover;
+}
+.icon-stats-8 {
+    background-image: url(../../static/icon/stats-8.png);
+    background-size: cover;
+}
+.icon-stats-9 {
+    background-image: url(../../static/icon/stats-9.png);
+    background-size: cover;
+}
+.icon-stats-10 {
+    background-image: url(../../static/icon/stats-10.png);
+    background-size: cover;
 }

@@ -22,3 +22,6 @@
   - 浏览器兼容性
     - Chrome + Firefox
     - IE适配差
+3. 属性界面制作
+- 切图标学习[https://www.cnblogs.com/padding1015/p/7085539.html]  
+- 
