@@ -103,18 +103,6 @@
     font-size: 0.6rem;
     z-index: 11;
 }
-.potential-info {
-    float: right;
-    margin: 0.7vw 1vw 0 0;
-    width: 3vw;
-    height: 3vw;
-    line-height: 3vw;
-    text-align: center;    
-    background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'%3E %3Cpolygon points='100,2 198,100 100,198 2,100' style='fill:%23c6cdd3;stroke:%23000000;stroke-width:4;'/%3E %3Cpolygon points='100,16 184,100 100,184 16,100' style='fill:%23565658;stroke:%23000000;stroke-width:4;'/%3E %3C/svg%3E");
-    background-size: cover;
-    color: #fff;
-    font-size: 0.6rem;
-}
 .potential-detail-text {}
 .text-fixed {}
 .text-change {}
