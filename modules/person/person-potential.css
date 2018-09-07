@@ -10,3 +10,95 @@
     position: relative;
 }
 
+.potential-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 1vh;
+    height: 75.5vh;
+    /* background-color: #fff; */
+    overflow-y: auto;
+}
+.potential-item {
+    position: relative;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
+    width: 14vw;
+    height: 18.5vw;
+    border: 1px solid #aeada8;
+}
+.potential-gooditem {
+    border: 1px solid #da8753;
+}
+.potential-bestitem {
+    border: 1px solid #a25eb3;
+}
+.potential-item-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3b2b2b;
+}
+.potential-item-content {
+    position: absolute;
+    top: 1vh;
+    right: 0.4vw;
+    bottom: 1vh;
+    left: 0.4vw;
+    background-color: #bbb;   
+    z-index: 1000;
+}
+.potential-item-figure {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    border-bottom: 1px solid #7a7a7a;
+}
+.potential-item-figure img{
+    width: 12.5vw;
+    height: 15vw;
+    background-color: #bbb;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+}
+.potential-item-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5vw;
+}
+.potential-item-icon {}
+.potential-item-text {
+    margin-left: 0.2rem; 
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+.potential-disable .potential-item-text  {
+    color: #858585;
+}
+
+.icon-atk {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url(../../static/icon/atk.png);
+    background-size: cover;
+}
+.icon-def {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url(../../static/icon/def.png);
+    background-size: cover;
+}
+.icon-spe {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url(../../static/icon/spe.png);
+    background-size: cover;
+}
+.icon-auxi {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-image: url(../../static/icon/auxi.png);
+    background-size: cover;
+}
