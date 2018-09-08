@@ -1,0 +1,85 @@
+/* block-content */
+.content-info {
+    padding: 2.5% 2% 10% 2%;
+}
+.content-left {
+    flex: 1;
+}
+.content-right {
+    flex: 1;
+    position: relative;
+}
+
+.acupoint-state {
+    position: relative;
+    width: 29.4vw;
+    height: 37vw;
+    background-image: url(../../static/img/acupoint.png);
+    background-size: cover;
+}
+.acupoint-item {
+    position: absolute;
+    width: 2.31vw;
+    height: 2.31vw;
+    background-image: url(../../static/img/acuitem.png);
+    background-size: cover;
+}
+.acupoint-item-hide {
+    display: none;
+}
+.acupoint-item-r1 {
+    top: 28.93vw;
+    left: 7.41vw;
+}
+.acupoint-item-r2 {
+    top: 21.25vw;
+    left: 6.02vw;
+}
+.acupoint-item-r3 {
+    top: 13.1vw;
+    left: 6.71vw;
+}
+.acupoint-item-r4 {
+    top: 9.8vw;
+    left: 9.4vw;
+}
+.acupoint-item-d1 {
+    top: 31.3vw;
+    left: 14.9vw;
+}
+.acupoint-item-d2 {
+    top: 20.25vw;
+    left: 11.75vw;
+}
+.acupoint-item-d3 {
+    top: 14vw;
+    left: 14.15vw;
+}
+.acupoint-item-d4 {
+    top: 1.2vw;
+    left: 11.5vw;
+}
+.acupoint-item-c1 {
+    top: 5.55vw;
+    left: 14.9vw;
+}
+.acupoint-item-c2 {
+    top: 8.9vw;
+    left: 19.3vw;
+}
+.acupoint-item-c3 {
+    top: 15.75vw;
+    left: 19vw;
+}
+.acupoint-item-y1 {
+    top: 25vw;
+    left: 20.6vw;
+}
+.acupoint-item-y2 {
+    top: 28.8vw;
+    left: 23.3vw;
+}
+.acupoint-item-dai {
+    top: 19vw;
+    left: 22.92vw;
+}
