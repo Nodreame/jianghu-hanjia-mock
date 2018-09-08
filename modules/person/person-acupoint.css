@@ -12,6 +12,7 @@
 
 .acupoint-state {
     position: relative;
+    margin-top: 0.93vw;
     width: 29.4vw;
     height: 37vw;
     background-image: url(../../static/img/acupoint.png);
@@ -82,4 +83,50 @@
 .acupoint-item-dai {
     top: 19vw;
     left: 22.92vw;
+}
+.acupoint-desc {
+    position: relative;
+    font-size: 0.7rem;
+}
+.acupoint-title {
+    color: #fea500;
+}
+.acupoint-whiteplace {
+    height: 3.7vh;
+}
+.acupoint-detail {
+    color: #fff;
+    white-space: pre-line;
+}
+
+.acupoint-info {
+    position: absolute;
+    top: 0.7vw;
+    right: 1vw;
+    /* margin: 0.7vw 1vw 0 0; */
+    width: 3vw;
+    height: 3vw;
+    line-height: 3vw;
+    text-align: center;    
+    background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' version='1.1' xmlns='http://www.w3.org/2000/svg'%3E %3Cpolygon points='100,2 198,100 100,198 2,100' style='fill:%23c6cdd3;stroke:%23000000;stroke-width:4;'/%3E %3Cpolygon points='100,16 184,100 100,184 16,100' style='fill:%23565658;stroke:%23000000;stroke-width:4;'/%3E %3C/svg%3E");
+    background-size: cover;
+    color: #fff;
+    font-size: 0.6rem;
+}
+.acupoint-condition {
+    position: absolute;
+    top: 74vh;
+    color: #fff;
+    font-size: 0.6rem;
+}
+.btn-switch {
+    position: absolute;
+    top: 74vh;
+    right: 0;
+    width: 8.5vw;
+    height: 1.5rem;
+    border: 1px solid #beab83;
+    background-color: #242625;
+    color: #e0bb63;
+    font-size: 0.6rem;
 }
