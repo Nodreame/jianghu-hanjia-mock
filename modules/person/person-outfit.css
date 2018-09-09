@@ -1,0 +1,189 @@
+/* block-content */
+.content-info {
+    padding: 2.5% 2% 10% 2%;
+}
+.content-left {
+    flex: 1;
+}
+.content-right {
+    flex: 1;
+    position: relative;
+}
+/* left */
+.outfit-dashboard {
+    position: relative;
+}
+.outfit-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29.4vw;
+    height: 80.5vh;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 1;
+}
+.outfit-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 29.4vw;
+    height: 80.5vh;
+}
+.outfit-curbg {
+    position: absolute;
+    top: 6.94vw;
+    left: 7.4vw;
+    width: 14.8vw;
+    height: 24.3vw;
+    background-image: url(../../static/img/outfit-female.png);
+    background-size: cover;
+}
+.outfit-item {
+    position: relative;
+    text-align: center;
+    width: 5.9vw;
+    height: 5.9vw;
+    background-color: #4b4b4b;
+}
+.outfit-item img{
+    margin-top: 0.2vw;
+    width: 3vw;
+    height: 3vw;
+    font-size: 0;
+}
+.outfit-item p{
+    font-size: 0.6rem;
+    color: #fff;
+}
+.outfit-item-c {
+    border: 2px solid #7fbb71;
+}
+.outfit-item-b {
+    border: 2px solid #c4770f;
+}
+.outfit-item-a {
+    border: 2px solid #c24ce1;
+}
+.outfit-item-s {
+    border: 2px solid #c54d3d;
+}
+.outfit-item-1 {
+    position: absolute;
+    top: 8.1vw;
+    left: 0.7vw;
+    z-index: 2;
+}
+.outfit-item-2 {
+    position: absolute;
+    top: 8.1vw;
+    right: 0.7vw;
+    z-index: 2;
+}
+.outfit-item-3 {
+    position: absolute;
+    top: 16.44vw;
+    left: 0.7vw;
+    z-index: 2;
+}
+.outfit-item-4 {
+    position: absolute;
+    top: 16.44vw;
+    right: 0.7vw;
+    z-index: 2;
+}
+.outfit-item-5 {
+    position: absolute;
+    top: 25.23vw;
+    left: 0.7vw;
+    z-index: 2;
+}
+.outfit-item-6 {
+    position: absolute;
+    top: 25.23vw;
+    right: 0.7vw;
+    z-index: 2;
+}
+
+.btn {
+    width: 8.8vw;
+    height: 3.7vw;
+    border: 1px solid #beab83;
+    background-color: #242625;
+    color: #e0bb63;
+    font-size: 0.7rem;
+}
+.btn-outfitbox {
+    position: absolute;
+    top: 1.39vw;
+    right: 0.7vw;
+    z-index: 2;
+}
+.btn-forge {
+    position: absolute;
+    top: 32.4vw;
+    right: 0.7vw;
+    z-index: 2;
+}
+/* right */
+.outfit-package-bg {
+    position: absolute;
+    top: 22.1vw;
+    left: 4.53vw;
+    width: 23.15vw;
+    height: 0.65vw;
+    background-image: url(../../static/img/curoff-line.png);
+    background-size: cover;
+}
+.outfit-package {
+    position: relative;
+}
+.outfit-package-list {
+    width: 30vw;
+    height: 20vw;
+    overflow-y: auto;
+}
+.outfit-package-item {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 5.9vw;
+    height: 5.9vw;
+    margin: 0 0.5vw 0.5vw 0.5vw;
+    background-color: #4b4b4b;
+}
+.outfit-package-item img{
+    margin-top: 0.2vw;
+    width: 3vw;
+    height: 3vw;
+    font-size: 0;
+}
+.outfit-package-item p{
+    font-size: 0.6rem;
+    color: #fff;
+}
+.outfit-item-lock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1vw;
+    height: 1.3vw;
+    background-image: url(../../static/img/outfit-lock.png);
+    background-size: cover;
+}
+.outfit-package-desc {
+    margin-top: 2.5vw;
+    width: 20vw;
+    height: 17vw;
+    overflow-y: auto;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+.outfit-package-desc-title {
+    font-size: 0.8rem;
+    margin-bottom: 1.5vw;
+}
+.outfit-package-desc-content {
+    font-size: 0.7rem;
+    white-space: pre-line;
+}
